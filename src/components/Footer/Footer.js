@@ -33,25 +33,25 @@ export default function Footer(props) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/?ref=mkr-footer"
+                href="https://fb.com/shaurya.shah1"
                 className={classes.block}
                 target="_blank"
               >
-                Creative Tim
+                Shaurya Shah
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/presentation?ref=mkr-footer"
+                href="https://panel.npchosting.com/"
                 className={classes.block}
                 target="_blank"
               >
-                About us
+                Panel login
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="http://blog.creative-tim.com/?ref=mkr-footer"
+                href="http://blog.npchosting.com/"
                 className={classes.block}
                 target="_blank"
               >
@@ -60,11 +60,11 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/license?ref=mkr-footer"
+                href="https://npchosting.com/pricing"
                 className={classes.block}
                 target="_blank"
               >
-                Licenses
+                Pricing
               </a>
             </ListItem>
           </List>
@@ -73,13 +73,13 @@ export default function Footer(props) {
           &copy; {1900 + new Date().getYear()} , made with{" "}
           <Favorite className={classes.icon} /> by{" "}
           <a
-            href="https://www.creative-tim.com?ref=mkr-footer"
+            href="https://fb.com/shaurya.shah1"
             className={aClasses}
             target="_blank"
           >
-            Creative Tim
+            Shaurya Shah
           </a>{" "}
-          for a better web.
+          , India
         </div>
       </div>
     </footer>
