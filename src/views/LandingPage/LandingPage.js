@@ -47,11 +47,11 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Host your next gameserver in the cloud with us.</h1>
+              <h1 className={classes.title}>Host your gameserver in the cloud.</h1>
               <h4>
-                Indian Datacenter - Mumbai & Hyderabad
-                Gameserver Panel
-                Free DDOS Protection
+                Indian Datacenter - Mumbai & Hyderabad, 
+                Gameserver Panel, 
+                Free DDOS Protection, 
                 24/7 Support
               </h4>
               <br />
@@ -63,7 +63,7 @@ export default function LandingPage(props) {
                 rel="noopener noreferrer"
               >
                 <i className="fas fa-play" />
-                Watch video
+                Watch how
               </Button>
             </GridItem>
           </GridContainer>
