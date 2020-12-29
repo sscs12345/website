@@ -22,9 +22,8 @@ export default function WorkSection() {
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Work with us</h2>
           <h4 className={classes.description}>
-            Divide details about your product or agency work into parts. Write a
-            few lines about each one and contact us about any further
-            collaboration. We will responde get back to you in a couple of
+            We are looking for you! Become part of the our team!
+            We will get back to you in a couple of
             hours.
           </h4>
           <form>
@@ -40,7 +39,7 @@ export default function WorkSection() {
               </GridItem>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
-                  labelText="Your Email"
+                  labelText="Your mail address"
                   id="email"
                   formControlProps={{
                     fullWidth: true
@@ -48,7 +47,7 @@ export default function WorkSection() {
                 />
               </GridItem>
               <CustomInput
-                labelText="Your Message"
+                labelText="Cover letter"
                 id="message"
                 formControlProps={{
                   fullWidth: true,
@@ -60,7 +59,7 @@ export default function WorkSection() {
                 }}
               />
               <GridItem xs={12} sm={12} md={4}>
-                <Button color="primary">Send Message</Button>
+                <Button color="primary">Apply</Button>
               </GridItem>
             </GridContainer>
           </form>
