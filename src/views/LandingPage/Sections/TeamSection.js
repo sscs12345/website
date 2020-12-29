@@ -42,12 +42,12 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Shaurya Shah
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Owner</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
                   BSC IT Graduate from Mumbai, IN
-                  CPL holder done from Vancouver, CA
+                  CPL holder
                   some <a href="#pablo">links</a> for people to be able to
                   follow them outside the site.
                 </p>
@@ -83,14 +83,14 @@ export default function TeamSection() {
                 <img src={team2} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Christian Louboutin
+                Position open
                 <br />
-                <small className={classes.smallTitle}>Designer</small>
+                <small className={classes.smallTitle}>Sales head</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
+                  Sales team
+                  Live chat
                   some <a href="#pablo">links</a> for people to be able to
                   follow them outside the site.
                 </p>
@@ -119,14 +119,14 @@ export default function TeamSection() {
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Kendall Jenner
+                Position open
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Tech support</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
+                  Backend team 
+                  Live chat
                   some <a href="#pablo">links</a> for people to be able to
                   follow them outside the site.
                 </p>
