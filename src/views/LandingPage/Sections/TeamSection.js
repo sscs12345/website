@@ -42,14 +42,11 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Shaurya Shah
                 <br />
-                <small className={classes.smallTitle}>Owner</small>
+                <small className={classes.smallTitle}>Founder</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  BSC IT Graduate from Mumbai, IN
-                  CPL holder
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  I don’t Get "Over things", I Get "Through" them. There’s a difference. It’s in the effort and result.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
