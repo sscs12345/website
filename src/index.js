@@ -17,6 +17,7 @@ ReactDOM.render(
   <Router history={hist}>
     <Switch>
       <Route path="/" component={LandingPage} />
+      <Route path="/" component={Components} />
     </Switch>
   </Router>,
   document.getElementById("root")
