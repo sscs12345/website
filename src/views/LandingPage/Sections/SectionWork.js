@@ -10,16 +10,16 @@ import GridItem from "components/Grid/GridItem.js";
 import CustomInput from "components/CustomInput/CustomInput.js";
 import Button from "components/CustomButtons/Button.js";
 
-import styles from "assets/jss/material-kit-react/views/landingPageSections/workStyle.js";
+import workStyle from "assets/jss/material-kit-pro-react/views/landingPageSections/workStyle.js";
 
-const useStyles = makeStyles(styles);
+const useStyles = makeStyles(workStyle);
 
-export default function WorkSection() {
+export default function SectionWork() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
-        <GridItem cs={12} sm={12} md={8}>
+        <GridItem cs={12} sm={8} md={8}>
           <h2 className={classes.title}>Work with us</h2>
           <h4 className={classes.description}>
             Divide details about your product or agency work into parts. Write a
@@ -29,7 +29,7 @@ export default function WorkSection() {
           </h4>
           <form>
             <GridContainer>
-              <GridItem xs={12} sm={12} md={6}>
+              <GridItem xs={12} sm={6} md={6}>
                 <CustomInput
                   labelText="Your Name"
                   id="name"
@@ -38,7 +38,7 @@ export default function WorkSection() {
                   }}
                 />
               </GridItem>
-              <GridItem xs={12} sm={12} md={6}>
+              <GridItem xs={12} sm={6} md={6}>
                 <CustomInput
                   labelText="Your Email"
                   id="email"
@@ -59,7 +59,12 @@ export default function WorkSection() {
                   rows: 5
                 }}
               />
-              <GridItem xs={12} sm={12} md={4}>
+              <GridItem
+                xs={12}
+                sm={4}
+                md={4}
+                className={classes.mrAuto + " " + classes.mlAuto}
+              >
                 <Button color="primary">Send Message</Button>
               </GridItem>
             </GridContainer>
