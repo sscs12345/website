@@ -40,13 +40,16 @@ export default function TeamSection() {
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Shaurya Shah
+                Gigi Hadid
                 <br />
-                <small className={classes.smallTitle}>Founder</small>
+                <small className={classes.smallTitle}>Model</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  I don’t Get "Over things", I Get "Through" them. There’s a difference. It’s in the effort and result.
+                  You can write here details about one of your team members. You
+                  can give more details about what they do. Feel free to add
+                  some <a href="#pablo">links</a> for people to be able to
+                  follow them outside the site.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -80,14 +83,14 @@ export default function TeamSection() {
                 <img src={team2} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Position open
+                Christian Louboutin
                 <br />
-                <small className={classes.smallTitle}>Sales head</small>
+                <small className={classes.smallTitle}>Designer</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  Sales team
-                  Live chat
+                  You can write here details about one of your team members. You
+                  can give more details about what they do. Feel free to add
                   some <a href="#pablo">links</a> for people to be able to
                   follow them outside the site.
                 </p>
@@ -116,14 +119,14 @@ export default function TeamSection() {
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Position open
+                Kendall Jenner
                 <br />
-                <small className={classes.smallTitle}>Tech support</small>
+                <small className={classes.smallTitle}>Model</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  Backend team 
-                  Live chat
+                  You can write here details about one of your team members. You
+                  can give more details about what they do. Feel free to add
                   some <a href="#pablo">links</a> for people to be able to
                   follow them outside the site.
                 </p>
