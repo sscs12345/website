@@ -6,43 +6,43 @@ import PropTypes from "prop-types";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
-
 // core components
-import styles from "assets/jss/material-kit-pro-react/components/cardFooterStyle.js";
+
+import styles from "assets/jss/material-kit-pro-react/components/cardAvatarStyle.js";
 
 const useStyles = makeStyles(styles);
 
-export default function CardFooter(props) {
+export default function CardAvatar(props) {
   const {
-    className,
     children,
+    className,
     plain,
     profile,
-    pricing,
     testimonial,
+    testimonialFooter,
     ...rest
   } = props;
   const classes = useStyles();
-  const cardFooterClasses = classNames({
-    [classes.cardFooter]: true,
-    [classes.cardFooterPlain]: plain,
-    [classes.cardFooterProfile]: profile || testimonial,
-    [classes.cardFooterPricing]: pricing,
-    [classes.cardFooterTestimonial]: testimonial,
+  const cardAvatarClasses = classNames({
+    [classes.cardAvatar]: true,
+    [classes.cardAvatarProfile]: profile,
+    [classes.cardAvatarPlain]: plain,
+    [classes.cardAvatarTestimonial]: testimonial,
+    [classes.cardAvatarTestimonialFooter]: testimonialFooter,
     [className]: className !== undefined
   });
   return (
-    <div className={cardFooterClasses} {...rest}>
+    <div className={cardAvatarClasses} {...rest}>
       {children}
     </div>
   );
 }
 
-CardFooter.propTypes = {
+CardAvatar.propTypes = {
+  children: PropTypes.node.isRequired,
   className: PropTypes.string,
-  plain: PropTypes.bool,
   profile: PropTypes.bool,
-  pricing: PropTypes.bool,
+  plain: PropTypes.bool,
   testimonial: PropTypes.bool,
-  children: PropTypes.node
+  testimonialFooter: PropTypes.bool
 };
